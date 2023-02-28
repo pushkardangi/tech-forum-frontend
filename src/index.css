@@ -18,6 +18,23 @@ a {
   text-decoration: none;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.title{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.f-items{
+  justify-content: center;
+}
+
 .register,
 .login,
 .home,
