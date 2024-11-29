@@ -1,8 +1,11 @@
 import React from "react";
+import {useNavigate } from "react-router-dom";
 
 const Nav = () => {
+  const navigate = useNavigate();
+
   const signOut = () => {
-    alert("User signed out!");
+    navigate("/")
   };
 
   return (
